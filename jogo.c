@@ -15,6 +15,14 @@ int main() {
         printf("acertaste");
     } else
         printf("erraste");
-
+} else if (palpite > escolha) { 
+        printf("Menor");
+    } 
+       else {
+printf("Maior");
+       }
+}
+ 
+}
  
 }
